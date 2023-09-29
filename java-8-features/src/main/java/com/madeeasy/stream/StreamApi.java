@@ -9,6 +9,46 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StreamApi {
+
+    /**
+         * **Java Stream API**
+         *
+         * **Introduction:**
+         * - The Java Stream API was introduced in Java 8 to simplify and enhance working with sequences of data,
+         * such as collections or arrays.
+         * - It provides a declarative and functional approach to perform operations on data, making code more
+         * concise and readable.
+         *
+         * **Key Concepts:**
+         *
+         * 1. **Stream**: A stream is a sequence of elements that can be processed in a functional style.
+         *
+         * 2. **Intermediate Operations**: These operations are applied to a stream and return a new stream. Examples
+         * include `filter`, `map`, `flatMap`, `distinct`, `sorted`, `peek`, `limit`, and `skip`.
+         *
+         * 3. **Terminal Operations**: These operations produce a result or side-effect. Examples include `forEach`,
+         * `toArray`, `reduce`, `collect`, `min`, `max`, `count`, `anyMatch`, `allMatch`, `noneMatch`, `findFirst`,
+         * and `findAny`.
+         *
+         * **Use Cases:**
+         *
+         * 1. **Data Transformation**: Stream API is useful for transforming and filtering data. You can easily
+         * filter elements, transform them, and remove duplicates.
+         *
+         * 2. **Parallelism**: Stream API can leverage multicore processors by performing operations in parallel.
+         * This can significantly improve performance for large datasets.
+         *
+         * 3. **Declarative Code**: Stream operations enable you to write code in a more declarative and readable
+         * style, reducing the need for loops and mutable variables.
+         * 
+         * **Conclusion:**
+         *
+         * The Java Stream API provides a powerful and expressive way to work with collections of data. It promotes
+         * functional programming concepts and can significantly improve code readability and performance, especially
+         * when dealing with large datasets. It is widely used in industry-level Java development for data processing
+         * and manipulation.
+         */
+    
     public static void main(String[] args) {
         List<User> list = List.of(
                 new User("hello", "123", 1),
